@@ -6,10 +6,10 @@
       "customType": "regex",
       "managerFilePatterns": ["/^Containerfile$/"],
       "matchStrings": [
-        "https:\\/\\/github\\.com\\/ublue-os\\/artwork\\/releases\\/download\\/(?<currentValue>.*?)\\/aurora-wallpapers\\.tar\\.zstd"
+        "https:\\/\\/github\\.com\\/renner0e\\/artwork\\/releases\\/download\\/(?<currentValue>.*?)\\/aurora-wallpapers\\.tar\\.zstd"
       ],
       "datasourceTemplate": "github-releases",
-      "depNameTemplate": "ublue-os/artwork",
+      "depNameTemplate": "renner0e/artwork",
       "extractVersionTemplate": "aurora-v{{version}}"
     }
   ]
