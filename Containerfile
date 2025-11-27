@@ -4,7 +4,7 @@ RUN apk add --no-cache curl jq zstd tar coreutils
 
 ENV URL="https://api.github.com/repos/ublue-os/artwork/releases"
 
-ENV TARBALL="https://github.com/ublue-os/artwork/releases/download/aurora-v2025-11-17/aurora-wallpapers.tar.zstd"
+ENV TARBALL="https://github.com/renner0e/artwork/releases/download/aurora-v2025-11-17/aurora-wallpapers.tar.zstd"
 
 RUN set -xeuo pipefail && \
     curl -L "$TARBALL" -o /tmp/aurora-wallpapers.tar.zstd && \
